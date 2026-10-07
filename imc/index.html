@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <h1>Calculadora de IMC</h1>
+        <form id="formIMC">
+            <label>Insira sua altura (m):</label>
+            <br>
+            <input id="alturaValor" type="number" placeholder="Exemplo: 1,75" step="any" required>
+            <br>
+            <br>
+            <label>Insira seu peso (kg):</label>
+            <br>
+            <input id="pesoValor" type="number" placeholder="Exemplo: 80" step="any" required>
+            <br>
+            <br>
+            <button id="botaoCalcular">Calcular</button>
+            <button id="botaoLimpar" type="button">Limpar</button>
+        </form>
+        <br>
+        <h3 id="valorIMC"></h3>
+        <h3 id="situacaoIMC"></h3>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

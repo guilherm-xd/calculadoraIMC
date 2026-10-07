@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ece9e2;
+    font-family: "DM Sans", sans-serif;
+    color: #222;
+}
+
+div {
+    margin-top: 60px;
+    width: 320px;
+    box-sizing: border-box;
+    border-radius: 14px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #dcd8cf;
+    padding: 32px 28px;
+    font-family: "DM Sans", sans-serif;
+}
+
+div h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 0 24px;
+}
+
+label {
+    font-size: 14px;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 6px;
+    padding: 10px 12px;
+    font-family: inherit;
+    font-size: 15px;
+    border: 1px solid #ccc7bc;
+    border-radius: 8px;
+    background-color: #faf9f6;
+}
+
+button {
+    font-family: inherit;
+    font-size: 15px;
+    padding: 10px 18px;
+    margin-top: 6px;
+    border-radius: 8px;
+    border: 1px solid #222;
+    cursor: pointer;
+}
+
+#botaoCalcular {
+    background-color: #222;
+    color: #fff;
+}
+
+#botaoCalcular:hover {
+    background-color: #3d3c3c;
+}
+
+#botaoLimpar {
+    background-color: transparent;
+    color: #222;
+}
+
+#botaoLimpar:hover {
+    background-color: #f0ede6;
+}
+
+#valorIMC,
+#situacaoIMC {
+    display: none;
+    font-size: medium;
+    font-weight: 400;
+    justify-content: center;
+    text-align: center;
+}
+
+#valorIMC {
+    font-weight: 600;
+}
